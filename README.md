@@ -1,0 +1,1 @@
+# cri-sql-scalatori
