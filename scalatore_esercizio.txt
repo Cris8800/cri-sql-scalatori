@@ -1,0 +1,42 @@
+Query 1
+
+select  scalata.scalatore, nazione.continente
+from scalata join nazione on scalata.nazione = nazione.nome
+
+Query 2
+
+select  scalatore.cf,nazione.continente
+from scalatore join scalata on scalatore.cf = scalata.scalatore
+join nazione on scalata.nazione = nazione.nome
+where scalatore.annonascita < 1988
+
+
+Query 3
+
+select nazione.nome, nazione.continente
+from scalatore join scalata on scalatore.cf= scalata.scalatore 
+join nazione on scalata.nazione= nazione.nome
+where scalata.anno - scalatore.annonascita <18;
+
+Query 4 (errata da rivedere)
+
+ SELECT scalatore,nazione 
+FROM scalata join nazione on scalata.nazione =nazione.nome
+join scalatore on scalata.nazione = scalatore.nazioneNAscita
+
+5
+
+
+
+6
+
+
+
+7
+
+
+
+8
+
+
+9
